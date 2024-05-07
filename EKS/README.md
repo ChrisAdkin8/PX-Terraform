@@ -45,7 +45,13 @@ terraform apply -auto-approve
 
 ## Kubeconfig File Creation
 
-Issue the following command, substituting the placeholders in angular brackets as appropriate: 
+1. Get the name of the cluster:
+```
+export AWS_DEFAULT_REGION=<region_name_goes_here>
+aws eks list-clusters
+```
+
+2. Issue the following command, substituting the placeholders in angular brackets as appropriate: 
 ```
 aws eks update-kubeconfig --region <region-code> --name <my-cluster>
 ```
