@@ -6,9 +6,9 @@ Terraform configuration for creating a GCP Google Kubernetes Engine cluster with
 
 To use this configuration you will need:
 
-- [a GCP Account](https://console.cloud.google.com/)
+- [GCP Account](https://console.cloud.google.com/)
 
-- [to install the GCP CLI](https://cloud.google.com/sdk/docs/install)
+- [GCP CLI](https://cloud.google.com/sdk/docs/install)
   - after installing gcloud, run:
 ```
 gcloud init
